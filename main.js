@@ -3,10 +3,9 @@ import App from './App'
 
 Vue.config.productionTip = false
 
-App.mpType = 'app';
-// 引入全局uView
+App.mpType = 'app'
 
 const app = new Vue({
-	...App
+    ...App
 })
 app.$mount()

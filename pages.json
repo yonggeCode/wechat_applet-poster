@@ -1,14 +1,24 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-ui基础项目"
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
 		}
-	}],
+	    ,{
+            "path" : "pages/poster/poster",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/draw/draw",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "white",
+		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#007AFF",
-		"backgroundColor": "#FFFFFF"
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
 	}
 }
